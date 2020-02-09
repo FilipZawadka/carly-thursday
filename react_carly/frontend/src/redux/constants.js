@@ -1,0 +1,16 @@
+export const CARS_LOADING = 'Cars/CARS_LOADING';
+export const CARS_LOADED = 'Cars/CARS_LOADED';
+export const CARS_LOADING_ERROR = 'Cars/CARS_LOADING_ERROR';
+export const CARS_CHANGE = 'Cars/CARS_CHANGE';
+export const LOGIN_SUCCESS = "Login/LOGIN_SUCCESS";
+export const LOGIN_ERROR = "Login/LOGIN_ERROR";
+export const CARS_SAVING_ERROR = "Cars/CARS_SAVING_ERROR";
+export const CAR_SAVING = "Cars/CAR_SAVING";
+export const CAR_SAVED = "Cars/CAR_SAVED";
+export const CARS_SORTED = "Cars/CARS_SORTED";
+export const DATES_LOADING = "Dates/DATES_LOADING";
+export const DATES_LOADED = "Dates/DATES_LOAED";
+export const DATES_LOADING_ERROR = "Dates/DATES_LOADING_ERROR";
+export const CAR_ID = "Cars/CAR_ID";
+export const monthNames=["January","February","March","April","May","June","July","August","September","October","November","December"];
+export const monthLengths=[31,28,31,30,31,30,31,31,30,31,30,31];

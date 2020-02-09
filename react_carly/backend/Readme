@@ -1,0 +1,3 @@
+In backend part carly endpoints for full functionality including a search and paging 
+on start we add a user "pablo" with password "123", for your convenience with logging in. if you want to use your own user just send a POST request with
+an ARAY of JSON users (make it an array not a single object, v important)

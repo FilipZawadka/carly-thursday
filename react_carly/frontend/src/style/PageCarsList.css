@@ -1,0 +1,88 @@
+.header{
+    color:rgb(182, 208, 236);
+    font-family: "Arial";
+    font-size:5em;
+    padding-bottom:50px;
+}
+
+#listHeader,.listRow{
+    display: grid;
+    grid-template-columns: repeat(7, 11%) repeat(2,auto);
+    
+}
+
+#listHeader{
+    margin:5px;
+    border-radius: 5px;
+    border: 4px solid #8C271E;
+}
+
+#listHeader>button{
+    font-family: "Arial";
+    margin:5px;
+    background-color: white;
+    border-radius: 10px;
+    white-space: normal;
+    word-break: normal;
+    border:none;
+    font-size:1.6vw;
+    font-weight: bold;
+    padding:5px;
+}
+
+#listHeader>button:hover{
+    cursor: pointer;
+    background-color:rgb(182, 208, 236);
+}
+
+.listRow{
+    text-align: center;
+    font-family: "Arial";
+    font-size: 1.2vw;
+    white-space: nowrap;
+    border:none;
+    margin:15px;
+    border-bottom:2px solid #8C271E;
+}
+
+button{
+    font-family: "Arial";
+    margin:5px;
+    background-color: white;
+    border-radius: 10px;
+    white-space: nowrap;
+    border:none;
+    font-size:1.2 vw;
+    padding:5px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:rgb(182, 208, 236);
+}
+
+#addButton{
+    font-size:2vw;
+    font-weight: bold;
+
+}
+
+input{
+    font-family: "Arial";
+    font-size: 0.8vw;
+    text-align: center;
+    width: 10vw;
+}
+
+#searchPanel{
+    padding-bottom:20px;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#searchInput{
+    min-width:25vw;
+}
